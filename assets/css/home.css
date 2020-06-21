@@ -1,0 +1,202 @@
+        body {
+            margin: 0;
+            background-color: gray;
+        }
+        /* To dolist tag */
+        
+        #TodoList {
+            height: auto;
+            width: 59%;
+            margin-left: 20%;
+            background-color: white;
+        }
+        /* All the list heading */
+        
+        #Listheading {
+            height: 105px;
+            width: 100%;
+            border-bottom: 1.5px solid lightgrey;
+            text-align: center;
+        }
+        
+        #Listheading #Todohead {
+            height: 100%;
+            width: 20%;
+            margin-left: 43%;
+            background-image: url("https://cdn.clipart.email/f88d0cf43050e17ca146b516007b0153_transparent-todo-list-clipart_1024-1024.png");
+            background-position: center;
+            background-size: cover;
+        }
+        /* Description tag */
+        
+        .descrip {
+            height: 85px;
+            width: 100%;
+            border-bottom: 1.5px solid lightgrey;
+            padding-top: 20px;
+        }
+        
+        #Description {
+            height: 60%;
+            width: 70%;
+            margin-left: 3%;
+            font-size: 1.4rem;
+            border: 0;
+        }
+        
+        .descrip:hover {
+            background-color: lightgrey;
+        }
+        /*focus outline */
+        
+        input:focus,
+        select:focus,
+        button:focus {
+            outline: none;
+        }
+        /* categry list */
+        
+        .category-date {
+            display: flex;
+            flex-wrap: wrap;
+            height: 105px;
+            width: 100%;
+            border-bottom: 1.5px solid lightgrey;
+        }
+        
+        #category {
+            height: 100%;
+            width: 49.5%;
+            border-right: 1.5px solid lightgrey;
+        }
+        /* for the date tag */
+        
+        #date {
+            height: 100%;
+            width: 50%;
+        }
+        
+        #options {
+            height: 55%;
+            width: 90%;
+            margin-left: 4.9%;
+            font-size: 1.4rem;
+            border: 0;
+        }
+        
+        #options:hover,
+        #Date:hover {
+            background-color: lightgrey;
+        }
+        
+        #Date {
+            height: 55%;
+            width: 90%;
+            margin-left: 4.9%;
+            font-size: 1.4rem;
+            border: 0;
+        }
+        /* For the buttons */
+        
+        #buttons {
+            height: 160px;
+            width: 100%;
+            border-bottom: 1.5px solid lightgrey;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        /* add button */
+        
+        #Add-button {
+            margin-left: 24%;
+            margin-right: 1%;
+            height: 56%;
+            width: 25%;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.705);
+            font-family: sans-serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            border-radius: 25px;
+            cursor: pointer;
+            border: 0;
+        }
+        /* delete button */
+        
+        #Delete-button {
+            height: 9%;
+            width: 14.2%;
+            color: white;
+            background-color: rgb(255, 68, 0);
+            font-family: sans-serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            border-radius: 25px;
+            cursor: pointer;
+            border: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            bottom: 55.1%;
+            margin-left: 30%;
+        }
+        /* all the list items */
+        
+        #Alllists {
+            height: auto;
+            width: 100%;
+        }
+        
+        #list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1.5px solid gray;
+            height: 105px;
+            width: 100%;
+        }
+        /* For checkbox input */
+        
+        input[type="checkbox"] {
+            width: 25px;
+            height: 25px;
+            margin-top: 2%;
+            margin-left: 5%;
+            cursor: pointer;
+        }
+        
+        input[type='checkbox']:checked:after {
+            background: rgb(5, 240, 161);
+            content: '\2714';
+            color: #fff;
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            font-size: 23px;
+            text-align: center;
+        }
+        
+        #listitems {
+            margin-left: 2%;
+            color: gray;
+            font-family: sans-serif;
+            font-weight: 300;
+            margin-top: 1.5%;
+            height: auto;
+            width: 50%;
+        }
+        
+        .Category-type {
+            height: 62%;
+            width: 14%;
+            text-align: center;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT677n1U8cmcP89vwlNt6-IO6htCGxKxbx6cjtJvKptuHly_YmD&usqp=CAU");
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+            margin-top: 1%;
+            margin-left: 18%;
+        }
